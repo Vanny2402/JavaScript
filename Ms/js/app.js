@@ -1,21 +1,6 @@
-
-const freinds=[
-    "TOLA",
-    "Male",
-    28,
-    false,
-    true,
-    ["Makara","Minea","Mesa"],
-    function greeting(){
-        console.log("Hello Tola");
-    },
-];
-
-// console.log(freinds[5][0],freinds[6]())
-
 const person={
     id:1,
-    name:"VANNYss",
+    name:"VANNY",
     sex: "male",
     age:19,
     education:true,
@@ -24,6 +9,15 @@ const person={
     greeting:function(){
         console.log("Hello VANNY");
     },
+
 };
 
-console.log(person.name,person.greeting());
+// for (let i in person){
+//     console.log(" ID: ",person[i], "\n Name: ",person[i],"\n Gender: ",person[i],"\n Age: ",person[i],
+//                 "\n Education: ",person[i],"\n Marrid: ",person[i],"\n Sibling: ",person[i],);
+//                 // "\n Greeting: ",person[i]);   
+// }   
+
+for (let i in person){
+    console.log(i, person[i]);
+}
